@@ -4,7 +4,10 @@
   "description": "",
   "author": "carlos",
   "license": "MIT",
-  "repository": "/components-hook",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/carlosh1989/modal-test"
+  },
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "jsnext:main": "dist/index.es.js",
