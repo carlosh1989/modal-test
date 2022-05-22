@@ -2,7 +2,7 @@ import React, { useState, Fragment, useRef, useImperativeHandle, forwardRef } fr
 import { Dialog, Transition } from '@headlessui/react'
 import { ExclamationIcon, InformationCircleIcon } from '@heroicons/react/outline'
 
-function Modal(ref) {
+const Modal = (ref) => {
   let [open, setOpen] = useState(false)
   let [type, setType] = useState(
     <div className='mx-auto flex-shrink-0 flex items-center justify-center h-12 w-12 rounded-full bg-blue-100 sm:mx-0 sm:h-10 sm:w-10'>

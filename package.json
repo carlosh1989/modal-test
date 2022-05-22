@@ -1,12 +1,11 @@
 {
   "name": "@carlosh1989/modal-test",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "",
   "author": "carlos",
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/carlosh1989/modal-test"
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/carlosh1989"
   },
   "main": "dist/index.js",
   "module": "dist/index.es.js",
